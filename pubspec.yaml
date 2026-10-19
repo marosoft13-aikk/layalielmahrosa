@@ -1,0 +1,65 @@
+name: layalielmahrosa
+
+description: تطبيق آثار القاهرة - دليل شامل للآثار الإسلامية والقبطية
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  cached_network_image: ^3.3.0
+  flutter_rating_bar: ^4.0.1
+  share_plus: ^7.2.1
+  url_launcher: ^6.2.1
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  smooth_page_indicator: ^1.1.0
+  lottie: ^3.0.0
+  shimmer: ^3.0.0
+  flutter_staggered_animations: ^1.1.1
+  audioplayers: ^5.2.1
+  photo_view: ^0.14.0
+  carousel_slider: ^4.2.1
+  font_awesome_flutter: ^10.6.0
+  intl: ^0.19.0
+  flutter_staggered_grid_view: ^0.7.0
+  video_player: ^2.7.0
+  chewie: ^1.7.0  # (اختياري - لتحسين Video Player)
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/audio/
+    - assets/lottie/
+    - assets/images/logo.png
+    - assets/images/jame_hakim.jpg
+    - assets/images/jame_aqmar.jpg
+    - assets/images/bab_al_futuh.jpg
+    - assets/images/al_azhar.jpg
+    - assets/images/malem_cairo.jpg
+    - assets/images/pyramids.jpg
+    - assets/images/egyptian_museum.jpg
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
+        - asset: assets/fonts/Cairo-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Cairo-Light.ttf
+          weight: 300
